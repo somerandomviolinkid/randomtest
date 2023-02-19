@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <title>Incremental industries</title>
+    <link href="stylesheet.css" rel="stylesheet">
+</header>
+
+<body>
+    <h1>Incremental industries</h1>
+    <h2>By Bobby M, 2023</h2>
+    <div class="tabBar">
+        <button id="defaultTab" class="tabLink" onclick="openTab(event, 'resourcesTab')">Resources</button>
+        <button class="tabLink" onclick="openTab(event, 'craftingTab')">Crafting</button>
+        <button class="tabLink" onclick="openTab(event, 'warehouseTab')">Warehouse</button>
+        <button class="tabLink" onclick="openTab(event, 'buildingsTab')">Buildings</button>
+        <button class="tabLink" onclick="openTab(event, 'researchTab')">Research</button>
+        <button class="tabLink" onclick="openTab(event, 'settingsTab')">Settings</button>
+    </div>
+
+    <div id="resourcesTab" class="tabContent">
+        <h3>Resources</h3>
+        <button id="mineRock" onclick="mineRock()">Mine rock</button>
+    </div>
+
+    <div id="craftingTab" class="tabContent">
+        <h3>Crafting</h3>
+    </div>
+
+    <div id="warehouseTab" class="tabContent">
+        <h3>Warehouse</h3>
+        <div id="inventoryDiv"></div>
+    </div>
+
+    <div id="buildingsTab" class="tabContent">
+        <h3>Buildings</h3>
+    </div>
+
+    <div id="researchTab" class="tabContent">
+        <h3>Research</h3>
+    </div>
+
+    <div id="settingsTab" class="tabContent">
+        <h3>Settings</h3>
+        <button class="settingButton" onclick="saveData()">Save data</button>
+        <button class="settingButton" onclick="resetData()">Reset data</button>
+        <button class="settingButton" onclick="importData()">Import data</button>
+        <button class="settingButton" onclick="exportData()">Export data</button>
+    </div>
+
+</body>
+
+<script src="scripts/data.js"></script>
+<script src="scripts/page.js"></script>
+<script src="scripts/game.js"></script>
+
+<script src="indexes/resources.js"></script>
+
+<script src="scripts/saving.js"></script>
+<script src="scripts/init.js"></script>
+
+</html>

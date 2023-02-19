@@ -1,0 +1,119 @@
+body {
+    background-color: dimgray;
+    margin: 0;
+    padding: 0;
+}
+
+.tabLink {
+    padding: 8px;
+    background-color: aliceblue;
+    text-align: center;
+    font-size: 24px;
+    margin: 0;
+    float: left;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10%;
+    border-width: 1px;
+    width: 16%;
+}
+
+.tabContent {
+    background-color: grey;
+    padding: 8px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.tabLink:hover {
+    transition: 0.5s;
+    cursor: pointer;
+    background-color: cadetblue;
+}
+
+.tabLink:active {
+    background-color: darkslategray;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: cadetblue;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+}
+
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 36px;
+    text-align: center;
+    color: darkslategray;
+}
+
+.tabBar {
+    background-color:cornflowerblue;
+    padding: 8px;
+    overflow: hidden;
+}
+
+.inventorySquare {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    overflow-y: visible;
+    float: left;
+    width: 17.5%;
+    height: fit-content;
+    margin: auto;
+    padding: 4px;
+    text-align: center;
+    background-color: lightslategray;
+}
+
+#inventoryDiv {
+    margin: auto;
+    padding: 0;
+    width: 90%;
+    padding: 8px;
+    background-color: aliceblue;
+    overflow: hidden;
+}
+
+img {
+    margin: auto;
+    width: 128px;
+    height: 128px;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#mineRock {
+    font-size: 24px;
+    text-align: center;
+}
+
+.settingButton {
+    font-size: 36px;
+    text-align: center;
+    border-radius: 16px;
+    border-color: black;
+    border-style: solid;
+    padding: 12px;
+}
+
+.settingButton:hover {
+    background-color: cornflowerblue;
+    transition: 0.5s;
+}
+
+button:hover {
+    cursor: pointer;
+}
